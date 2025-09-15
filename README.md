@@ -8,7 +8,8 @@ A simple React app to generate customizable Lorem Ipsum text.
 - One-click copy to clipboard with fallback for older browsers.
 - Responsive layout and keyboard-friendly inputs.
 
-![Screenshot](PUBLIC/screenshot.png)
+![Screenshot](./public/Screenshot.png)
+
 
 ## Getting Started
 - Install: `npm install`
