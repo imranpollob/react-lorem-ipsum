@@ -1,17 +1,27 @@
-React Lorem Ipsum (React 19 + Vite)
+# Lorem Ipsum Generator
+A simple React app to generate customizable Lorem Ipsum text.
 
-Overview
-- Upgraded to React 19 and Vite for fast dev/build.
-- Removed auto-copy behavior; added explicit Copy button.
-- Removed unused dependencies (CRA, testing libs, toast, copy util).
-- Refreshed UI with a clean, responsive layout.
+## Features
+- Generate multiple paragraphs of Lorem Ipsum text.
+- Configure words per sentence (min/max).
+- Configure sentences per paragraph (min/max).
+- One-click copy to clipboard with fallback for older browsers.
+- Responsive layout and keyboard-friendly inputs.
 
-Getting started
+![Screenshot](PUBLIC/screenshot.png)
+
+## Getting Started
 - Install: `npm install`
-- Dev: `npm run dev`
-- Build: `npm run build`
-- Preview: `npm run preview`
+- Dev server: `npm run dev` (Vite)
+- Production build: `npm run build`
+- Preview build: `npm run preview`
 
-Notes
-- Copy uses `navigator.clipboard` with a fallback; enable HTTPS or use `localhost`.
-- Vite serves static assets from `public/` if needed.
+## How To Use
+1) Adjust the inputs to your desired ranges and paragraph count.
+2) Click Generate to render the text.
+3) Click Copy to copy the generated text to your clipboard.
+
+## Notes
+- Clipboard: Uses `navigator.clipboard` when available; falls back to a safe textarea copy. Clipboard APIs require HTTPS or `http://localhost` in many browsers.
+- Assets: Vite serves static assets from `public/` if needed.
+

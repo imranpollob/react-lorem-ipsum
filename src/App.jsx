@@ -5,8 +5,8 @@ function App() {
   const [count, setCount] = useState(1);
   const [sentenceLowerBound, setSentenceLowerBound] = useState(8);
   const [sentenceUpperBound, setSentenceUpperBound] = useState(14);
-  const [paragraphLowerBound, setParagraphLowerBound] = useState(4);
-  const [paragraphUpperBound, setParagraphUpperBound] = useState(8);
+  const [paragraphLowerBound, setParagraphLowerBound] = useState(5);
+  const [paragraphUpperBound, setParagraphUpperBound] = useState(15);
   const [text, setText] = useState("");
   const [copied, setCopied] = useState(false);
 
